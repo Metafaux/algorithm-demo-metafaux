@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Metafaux: Algorithm Demo
+
+Practice project for better retention and utilization of algorithms, data structures, and asynchronous functions.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
