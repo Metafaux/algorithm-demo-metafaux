@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+interface Post {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
+}
+
+interface AppState {
+  posts: Post[];
+  error: String;
+}
+
 function App() {
+  const [appState, setAppState] = useState<AppState>({ posts: [], error: '' });
+
+  useEffect(() => {
+    // fetch
+  });
   return (
     <div className="App">
       <header className="App-header">
